@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.head {
+    color: #296130;
+}
+
+.tail {
+    color: #b1e006;
+}
+
+.nav-item a {
+    color: #296130;
+}
+
+.nav-item a:hover {
+    color: #b1e006;
+}
+
+.title, .card-title {
+    color: #296130;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#details img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#details p {
+    text-align: center;
+}
+
+#map {
+    height: 320px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #296130;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
