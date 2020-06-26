@@ -5,11 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Brand CSS-->
+    <!-- Own CSS-->
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Mapbox -->
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
@@ -39,9 +42,9 @@
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact</a>
                     </li>
-                </ul>
-                
+                </ul>                
             </nav>
+            
         </header>
     
         <section id="about">
@@ -76,6 +79,74 @@
                 </div>
             </div>
         </section>
+
+        <section id="team">
+            <div class="title">
+                <h3>Our Team</h3>
+            </div>
+            <div class="card-deck">
+                <div class="card profile">
+                    <div class="img-box">
+                        <img src="img/image.png" class="card-img-top">
+                        <ul class="text-center">
+                          <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                          <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                          <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+                        </ul>
+                    </div>
+                    <div class="card-body">                    
+                        <h5 class="card-title">Employee Name</h5>
+                        <h6>Position</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>   
+                </div>
+                <div class="card profile">
+                    <div class="img-box">
+                        <img src="img/image.png" class="card-img-top">
+                        <ul class="text-center">
+                          <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                          <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                          <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+                        </ul>
+                    </div>
+                    <div class="card-body">                    
+                        <h5 class="card-title">Employee Name</h5>
+                        <h6>Position</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>   
+                </div>
+                <div class="card profile">
+                    <div class="img-box">
+                        <img src="img/image.png" class="card-img-top">
+                        <ul class="text-center">
+                          <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                          <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                          <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+                        </ul>
+                    </div>
+                    <div class="card-body">                    
+                        <h5 class="card-title">Employee Name</h5>
+                        <h6>Position</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>   
+                </div>
+                <div class="card profile">
+                    <div class="img-box">
+                        <img src="img/image.png" class="card-img-top">
+                        <ul class="text-center">
+                          <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                          <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                          <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+                        </ul>
+                    </div>
+                    <div class="card-body">                    
+                        <h5 class="card-title">Employee Name</h5>
+                        <h6>Position</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>   
+                </div>
+            </div>
+        </section>
         
         <section id="contact">
             <div class="title">
@@ -101,8 +172,9 @@
         </footer>
     </div>
 
-    <!-- Mapbox -->
+    <!-- Own JS -->
     <script>
+        // Mapbox
         mapboxgl.accessToken = 'pk.eyJ1IjoiYXpyb25icmlhbiIsImEiOiJja2J1c3AxZXAwNTF1MnRxbmxlems1bjZmIn0.IW9vr1molRRLH4JELUvJKg';
         var map = new mapboxgl.Map({
             container: 'map',
